@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosObj = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
+  baseURL: "https://api.themoviedb.org/3",
 });
 
 export default axiosObj;
