@@ -1,0 +1,40 @@
+.Row {
+  margin-left: 20px;
+  color: white;
+}
+.Row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.Row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.Row__poster {
+  object-fit: contain;
+  width: 100%;
+  margin-right: 20px;
+  transition: transform 0.3s;
+}
+
+.Row__larger {
+  max-height: 250px;
+}
+
+.Row__larger:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.Row__smaller {
+  max-height: 100px;
+}
+
+.Row__smaller:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}

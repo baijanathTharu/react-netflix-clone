@@ -1,3 +1,5 @@
+# [Netflix Clone using ReactJs](https://bntharu-netflix.netlify.app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +68,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Api key:
+https://api.themoviedb.org/3/movie/550?api_key=e866230b5b0b9650522a8024ec468636

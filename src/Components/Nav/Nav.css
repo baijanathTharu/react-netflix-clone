@@ -1,0 +1,23 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+}
+
+.Nav__background {
+  background-color: #111;
+}
+
+.Nav__logo {
+  object-fit: contain;
+  width: 80px;
+}
+
+.Nav__menu {
+  width: 30px;
+  object-fit: contain;
+}
