@@ -58,4 +58,7 @@
   .Banner__contents {
     margin-left: 10px;
   }
+  .Banner__description {
+    width: 300px;
+  }
 }

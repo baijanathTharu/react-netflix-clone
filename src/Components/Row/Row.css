@@ -38,3 +38,17 @@
   cursor: pointer;
   transform: scale(1.08);
 }
+
+.Row__youtube {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+  .Row__youtube {
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+  }
+}
