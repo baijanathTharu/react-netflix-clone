@@ -17,7 +17,7 @@
   object-fit: contain;
   width: 100%;
   margin-right: 20px;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .Row__larger {
@@ -36,7 +36,7 @@
 
 .Row__smaller:hover {
   cursor: pointer;
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 .Row__youtube {
